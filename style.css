@@ -1,0 +1,35 @@
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.titulo {
+   font-size: 5vw;
+        background-color: blue;
+        text-align: center;
+        padding: 3vw;
+        position: relative;
+}
+.ctnFlex{
+  display: flex;
+  justify-content: space-between;
+}
+ div.op1 {
+        width: 38%;
+        display: inline-block;
+        background-color: red;
+        font-size: 3vw;
+        text-align: center;
+        padding: 5vw 0vw 5vw 0vw;
+        min-width:40vw;
+    }
+
+    div.op2 {
+        width: 38%;
+        background-color: green;
+        display: inline-block;
+        margin-right: 0vw;
+        font-size: 3vw;
+        text-align: center;
+        padding: 5vw 0vw 5vw 0vw;
+        min-width:40vw;
+    }
